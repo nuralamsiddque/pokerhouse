@@ -1,0 +1,236 @@
+@media only screen and (max-width: 575px) and (min-width: 310px) {
+    .heading_all {text-align: center;}
+    .heading_all .htext {
+        font-size: 2rem;
+    }
+    .heading_all .htext::after {
+        top: 36px;
+    }
+    .heading_all .download_text::after {
+        top: 66% !important;
+    }
+    .Quick-navigation {
+        left: -7px;
+    }
+    .header_section {
+        padding: 0 0 40px;
+        height: 80vh;
+    }
+    .inner_icon {
+        justify-content: center;
+    }
+    .scroll_icon {
+        justify-content: center;
+        display: flex;
+        padding-top: 30px;
+    }
+    .header_section .hero_slider .os_icon {
+        width: 60%;
+    }
+    .header_section .hero_slider .poker_house {
+        width: 50%;
+    }
+    .header_section .main_menu .nav-link {
+        border: none;
+        text-align: center;
+    }
+    .our_ethos {
+        padding: 60px 30px;
+    }   
+    .our_ethos::before {
+        top: -58px;
+        right: 0;
+        width: 100px;
+        height: 30%;
+        background-size: 100px;
+    }
+    .our_ethos .ethos_img img {
+        width: 60%;
+        padding-bottom: 30px;
+    }
+
+    .our_ethos .ethos_content .ethos_paragraph p {
+        font-size: 14px;
+    }
+    .card_area {
+        padding: 60px 40px;
+    }
+    .card_area .img_sec {
+        width: 70%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .card_area .inner_card {
+        padding: 20px 0 0;
+    }
+    .card_area .text_section h3 {
+        padding-top: 20px;
+    }
+    .card_area .text_section p {
+        font-size: 14px;
+    }
+    .gemplay_section {
+        padding: 60px 30px 60px;
+    }
+    .space_between {
+        flex-flow: wrap-reverse;
+    }
+    .gemplay_section .gemplay_content .gemplay_paragraph p {
+        font-size: 14px;
+    }
+    .gemplay_section .gemplay_content .gemplay_heading {
+        margin: 0 auto;
+    }
+    .gemplay_section .gemplay_img {
+        width: 100%;
+    }
+    .action_section {
+        padding: 60px 30px;
+    }
+    .action_content {
+        padding-top: 40px;
+    }
+    .action_section .action_img img {
+        width: 100%;
+    }
+
+    .action_section .action_content .action_paragraph p {
+        font-size: 14px;
+    }
+    .download_section {
+        padding: 60px 30px 0;
+    }
+
+    .download_section .download_content .download_paragraph p {
+        font-size: 14px;
+    }
+    .download_section .download_img img {
+        padding-top: 30px;
+    }
+    .gemplay_section .gemplay_img {
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+}
+@media only screen and (max-width: 767px) and (min-width: 575px){
+    .heading_all {text-align: center;}
+    .heading_all .htext {
+        font-size: 2rem;
+    }
+    .heading_all .download_text::after {
+        top: 50% !important;
+    }
+
+    .heading_all .htext::after {
+        top: 36px;
+    }
+    .header_section .main_menu .nav-link {
+        border: none;
+        text-align: center;
+    }
+    .header_section .hero_slider .os_icon {
+        width: 60%;
+    }
+    .header_section .hero_slider .poker_house {
+        width: 50%;
+    }
+    .scroll_icon {
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+    }
+    .our_ethos {
+        padding: 80px 0;
+    }
+    .our_ethos .ethos_img img {
+        width: 60%;
+        padding-bottom: 30px;
+    }
+    .our_ethos .ethos_content .ethos_heading {
+        margin: 0 auto;
+    }
+    .card_area {
+        padding: 80px 0 0;
+    }
+    .gemplay_section {
+        padding: 80px 0 80px;
+    }
+    .gemplay_section .gemplay_content .gemplay_heading {
+        margin: 0 auto;
+    }
+    .action_section .action_img img {
+        width: 100%;
+        padding: 50px 0;
+    }
+    .action_section .action_content .action_paragraph {
+        padding-bottom: 50px;
+    }
+    .download_section {
+        padding: 80px 0 0;
+    }
+    .download_section .download_img img {
+        width: 60%;
+        padding-top: 30px;
+    }
+    .gemplay_section .gemplay_img {
+        width: 80%;
+    }
+    .gemplay_section .gemplay_img {
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+}
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    .heading_all {text-align: center;}
+    .heading_all .download_text::after {
+        top: 50% !important;
+    }
+    .heading_all .htext {
+        font-size: 3rem;
+    }
+
+    .heading_all .htext::after {
+        top: 53px;
+    }
+    .header_section .main_menu .nav-link {
+        border: none;
+        text-align: center;
+    }
+    .card_area .img_sec {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .card_area .inner_card {
+        padding: 0 20px;
+    }
+    .action_section .action_img img {
+        width: 50%;
+        padding: 50px 0;
+    }
+    .action_section .action_content .action_paragraph {
+        padding-bottom: 50px;
+    }
+    .download_section .download_img img {
+        padding-top: 50px;
+        width: 70%;
+    }
+    .gemplay_section .gemplay_img {
+        width: 80%;
+    }
+    .gemplay_section .gemplay_img {
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+}
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+    .card_area .inner_card {
+        padding: 0 30px;
+    }
+    section.action_section {
+        padding: 50px 0;
+    }
+    .download_section .download_img img {
+        width: 70%;
+    }
+}
